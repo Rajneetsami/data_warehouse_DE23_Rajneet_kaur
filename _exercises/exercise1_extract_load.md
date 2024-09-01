@@ -56,6 +56,8 @@ These study questions are good to get an overview of snowflake roles and dlt for
 
 &nbsp; a) Why is the principal of least privilege important in a company?
 
+**the principle of least privilege is a foundational aspect of effective security management in organizations, helping to protect valuable assets and maintain operational integrity.**
+
 &nbsp; b) Explain the role of dlt in managing data pipelines.
 
 &nbsp; c) What is a data connector and why is it important in data integration?
@@ -68,9 +70,12 @@ These study questions are good to get an overview of snowflake roles and dlt for
 
 &nbsp; g) What is the purpose of roles in Snowflake?
 
+**roles in Snowflake are essential for ensuring secure, manageable, and compliant data access. They help organizations implement a robust access control framework, supporting both security and operational efficiency.**
+
 &nbsp; h) Explain the difference between USAGE and OWNERSHIP privileges.
 
 &nbsp; i) What information is required to create a user in Snowflake?
+
 
 ## Glossary
 
@@ -78,11 +83,11 @@ Fill in this table either by copying this into your own markdown file or copy it
 
 | terminology         | explanation |
 | ------------------- | ----------- |
-| SYSADMIN            |             |
-| USERADMIN           |             |
-| ORGADMIN            |             |
-| SECURITYADMIN       |             |
-| ACCOUNTADMIN        |             |
+| SYSADMIN            | y           |
+| USERADMIN           | y           |
+| ORGADMIN            | y           |
+| SECURITYADMIN       | y           |
+| ACCOUNTADMIN        | y           |
 | role inheritance    |             |
 | PUBLIC role         |             |
 | public schema       |             |
@@ -101,7 +106,7 @@ Fill in this table either by copying this into your own markdown file or copy it
 | granted on          |             |
 | granted by          |             |
 | secrets.toml        |             |
-| RBAC                |             |
+| RBAC                | y           |
 | CRUD operations     |             |
 | resource dlt        |             |
 | source dlt          |             |

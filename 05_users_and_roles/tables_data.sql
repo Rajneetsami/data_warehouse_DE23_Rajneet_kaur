@@ -59,3 +59,16 @@ select * from transactions;
 
 show grants to role ice_cream_reader;
 
+
+use role ice_cream_analyst;
+
+use warehouse dev_wh;
+
+create table if not exists customers(
+    customer_id int autoincrement,
+    customer_name string,
+    email string,
+    primary key(customer_id)
+);
+
+

@@ -1,0 +1,8 @@
+
+
+sources:
+  - name: job_ads  # database
+    schema: staging  # schema
+    tables:
+      - name: stg_data_ads  # reference table name
+        identifier: data_field_job_ads  # actual table name

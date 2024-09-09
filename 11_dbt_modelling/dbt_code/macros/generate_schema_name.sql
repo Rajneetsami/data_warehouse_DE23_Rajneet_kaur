@@ -9,4 +9,4 @@
         {{ current_schema_name | trim}}
     
     {%- endif -%}
-{%- endmacro -%}
+{%- endmacro %}

@@ -31,19 +31,21 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   dbt_code:
-    +materialized: view #default
+    +materialized: view  # Default materialization for all models under dbt_code
+
 
     src:
-    +materialized: ephemeral # its onlt used as upstream to dim och fcts
-    +schema: warehouse
+      +materialized: ephemeral  # Ephemeral materialization for source models
+      +schema: warehouse  # Schema for source models
 
     dim:
-    +schema: warehouse
+      +schema: warehouse  # Schema for dimension models
 
     fct:
-    +schema: warehouse
-
+      +schema: warehouse  # Schema for fact models
+    
     mart:
-    +schema: marts
+      +schema: marts  # Schema for mart models
 
-  
+    
+
